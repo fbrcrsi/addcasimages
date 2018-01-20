@@ -1,39 +1,40 @@
-{
-    "name": "fbrcrsi/addcasimages",
-    "type": "phpbb-extension",
-    "description": "This extention add casimages service on phpBB 3.1.X and 3.2.x message editor.\n\nPlease note: This service this extension uses is a French only service, due to this, some message's are in French only.",
-    "homepage": "https://github.com/fbrcrsi/addcasimages",
-    "version": "1.0.1",
-    "keywords": [
-        "phpbb",
-        "extension",
-        "picture",
-        "hosting",
-        "image"
-    ],
-    "license": "GPL-2.0",
-    "authors": [
-        {
-            "name": "fbrcrsi",
-            "username": "fbrcrsi",
-            "email": "fbrcrsi@gmail.com",
-            "homepage": "http://www.fbrcrsi.fr/",
-            "role": "Developer"
-        }
-    ],
-    "require": {
-        "php": ">=5.3.3",
-        "phpbb/phpbb": ">=3.1.10"
-    },
-    "extra": {
-        "display-name": "Add casimages service",
-        "soft-require": {
-            "phpbb/phpbb": ">=3.1.10"
-        },
-		"version-check": {
-		    "host": "www.fbrcrsi.fr",
-		    "directory": "/_extphpbb/addcasimages/",
-		    "filename": "version_check.json"
-		}
-	}
+{  
+   "name":"fbrcrsi/addcasimages",
+   "type":"phpbb-extension",
+   "description":"This extention add casimages service on phpBB 3.1.X and 3.2.x message editor.",
+   "homepage":"https://github.com/fbrcrsi/addcasimages",
+   "version":"1.0.0",
+   "keywords":[  
+      "phpbb",
+      "extension",
+      "picture",
+      "hosting",
+      "image"
+   ],
+   "license":"GPL-2.0",
+   "authors":[  
+      {  
+         "name":"fbrcrsi",
+         "username":"fbrcrsi",
+         "email":"fbrcrsi@gmail.com",
+         "homepage":"https://fbrcrsi.fr/",
+         "role":"Developer"
+      }
+   ],
+   "require":{  
+      "php":">=5.3.3",
+      "phpbb/phpbb":">=3.1.10"
+   },
+   "extra":{  
+      "display-name":"Add casimages service",
+      "soft-require":{  
+         "phpbb/phpbb":">=3.1.10"
+      },
+      "version-check":{  
+         "host":"fbrcrsi.fr",
+         "directory":"/_extphpbb/addcasimages/",
+         "filename":"version_check.json",
+         "ssl":"true"
+      }
+   }
 }
