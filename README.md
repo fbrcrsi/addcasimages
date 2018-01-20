@@ -22,6 +22,8 @@ Remember to purge cache each time you edit the templates after the installation
 
 ## Version History
 
-- 2018.01.19
-
+ - 2018.01.19
  - 1.0.0 : Stable version
+ 
+ - 2018.01.20
+ - 1.0.1 : Add responsive capability
