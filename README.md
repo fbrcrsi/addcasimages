@@ -1,8 +1,8 @@
 # addcasimages
-Add casimages service on phpBB 3.1.3 and phpBB 3.2 message editor
+Add casimages service on phpBB 3.1.x and phpBB 3.2.x message editor
 
 ## Quick Install
-You can install this on the latest release of phpBB 3.1.3 phpBB 3.2 by following the steps below:
+You can install this on the latest release of phpBB 3.1.x phpBB 3.2.x by following the steps below:
 
 1. [Download the latest release](https://github.com/fbrcrsi/addcasimages).
 2. Unzip the downloaded release, and change the name of the folder to`addcasimages`.
@@ -27,3 +27,6 @@ Remember to purge cache each time you edit the templates after the installation
  
  - 2018.01.20
  - 1.0.1 : Add responsive capability
+ 
+ - 2018.01.21
+ - 1.0.2 : Change description

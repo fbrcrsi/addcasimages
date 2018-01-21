@@ -1,9 +1,9 @@
 {  
    "name":"fbrcrsi/addcasimages",
    "type":"phpbb-extension",
-   "description":"This extention add casimages service on phpBB 3.1.X and 3.2.x message editor.",
+   "description":"This extention add casimages service on phpBB 3.1.X and 3.2.x message editor.\n\n This extension uses a French only service, due to this, some messages are only in French.",
    "homepage":"https://github.com/fbrcrsi/addcasimages",
-   "version":"1.0.0",
+   "version":"1.0.2",
    "keywords":[  
       "phpbb",
       "extension",
